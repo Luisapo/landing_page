@@ -161,3 +161,54 @@ a{
 }
 
 /*-------------banner---------------*/
+
+.banner {    
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;    
+}
+
+.banner .container {
+    display: flex;
+    font-size: larger;
+    background-color: #0688fa;
+    color: white;
+    width: 80%;
+    height: 50%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    border-radius: 8px;
+}
+
+
+.banner .sign_up {	
+	background-color:transparent;
+	border-radius:10px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:5px 51px;
+	text-decoration:none;	
+    align-self: center;
+    font-weight: 700;
+
+}
+
+
+/*----------------------------Footer--------------------------*/
+
+.footer {
+    height: 100px;    
+    background-color: #1F2937;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
